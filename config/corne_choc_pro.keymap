@@ -58,7 +58,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "QWERTY";
+            display-name = "HOME";
 
             // --------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |  MUTE |  PP   |  Y  |  U   |  I  |  O  |  P  | BSPC |
@@ -84,17 +84,17 @@
             //                    | GUI |     | SPC |               | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCL  &kp AT    &kp HASH  &kp DLLR       &kp PRCNT         &trans  &trans  &kp CARET  &kp AMPS   &kp ASTRK       &kp LPAR         &kp RPAR  &trans
-&trans  &trans    &kp LBKT  &kp RBKT  &kp LESS_THAN  &kp GREATER_THAN  &trans  &trans  &kp MINUS  &kp EQUAL  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans    &trans
-&trans  &trans    &trans    &trans    &trans         &trans                            &kp UNDER  &kp PLUS   &trans          &trans           &trans    &trans
-                            &trans    &trans         &trans                            &trans     &trans     &trans
+&trans  &kp EXCL   &kp AT    &kp HASH  &kp DLLR       &kp PRCNT         &trans  &trans  &kp CARET  &kp AMPS           &kp ASTRK       &kp LPAR         &kp RPAR        &trans
+&trans  &kp EQUAL  &kp LBKT  &kp RBKT  &kp LESS_THAN  &kp GREATER_THAN  &trans  &trans  &kp MINUS  &kp PLUS           &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp UNDERSCORE  &trans
+&trans  &trans     &trans    &trans    &trans         &trans                            &trans     &trans             &trans          &trans           &trans          &trans
+                             &trans    &trans         &trans                            &trans     &kp RIGHT_COMMAND  &trans
             >;
         };
 
         number {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3  &kp N4            &kp N5            &trans  &trans  &kp N6    &kp N7    &kp N8  &kp N9     &kp N0  &kp BSPC
+&trans  &kp N1  &kp N2  &kp N3  &kp N4            &kp N5            &trans  &trans  &kp N6    &kp N7    &kp N8  &kp N9     &kp N0  &trans
 &trans  &trans  &trans  &trans  &trans            &trans            &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
 &trans  &trans  &trans  &trans  &trans            &trans                            &trans    &trans    &trans  &trans     &trans  &trans
                         &trans  &kp LEFT_COMMAND  &kp LEFT_CONTROL                  &trans    &trans    &trans
@@ -112,7 +112,7 @@
         };
 
         boot {
-            display-name = "boot";
+            display-name = "BOOT";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5    |  LCTRL | RCTRL |  6  |  7  |  8  |  9  |  0  | BSPC |
@@ -134,7 +134,7 @@
 &trans  &kp Q  &kp W  &kp E  &kp R      &kp T      &trans  &trans  &kp Y   &kp U   &kp I   &kp O   &kp P   &trans
 &trans  &kp A  &kp S  &kp D  &kp F      &kp G      &trans  &trans  &kp H   &kp J   &kp K   &kp L   &trans  &trans
 &trans  &kp Z  &kp X  &kp C  &kp V      &kp B                      &kp N   &kp M   &trans  &trans  &trans  &trans
-                      &mo 2  &kp SPACE  &kp LCTRL                  &trans  &trans  &tog 0
+                      &mo 2  &kp SPACE  &kp LCTRL                  &trans  &trans  &to 0
             >;
         };
     };
