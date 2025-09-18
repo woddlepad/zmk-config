@@ -94,10 +94,10 @@
         number {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &trans  &trans  &kp N6    &kp N7    &kp N8  &kp N9     &kp N0  &kp BSPC
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans    &trans    &trans  &trans     &trans  &trans
-                        &trans  &trans  &trans                  &trans    &trans    &trans
+&trans  &kp N1  &kp N2  &kp N3  &kp N4            &kp N5            &trans  &trans  &kp N6    &kp N7    &kp N8  &kp N9     &kp N0  &kp BSPC
+&trans  &trans  &trans  &trans  &trans            &trans            &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans            &trans                            &trans    &trans    &trans  &trans     &trans  &trans
+                        &trans  &kp LEFT_COMMAND  &kp LEFT_CONTROL                  &trans    &trans    &trans
             >;
         };
 
