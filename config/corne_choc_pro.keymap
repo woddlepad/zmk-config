@@ -67,10 +67,10 @@
             //                    | GUI | LWR | SPC |               | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q  &kp W                &kp E             &kp R                &kp T      &trans  &trans  &kp Y  &kp U                 &kp I             &kp O         &kp P     &kp BACKSLASH
-&kp ESC    &kp A  &hml LEFT_CONTROL S  &hml LEFT_ALT D   &hml LEFT_COMMAND F  &kp G      &trans  &trans  &kp H  &hmr J RIGHT_COMMAND  &hmr K RIGHT_ALT  &hmr RCTRL L  &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X                &kp C             &kp V                &kp B                      &kp N  &kp M                 &kp COMMA         &kp DOT       &kp FSLH  &kp RIGHT_SHIFT
-                                       &kp LEFT_COMMAND  &hold_layer 1 SPACE  &kp LCTRL                  &bksp  &hold_layer 2 ENTER   &mo 3
+&kp TAB    &kp Q  &kp W                &kp E             &kp R                &kp T      &trans  &trans  &kp Y          &kp U                &kp I             &kp O         &kp P     &kp BACKSLASH
+&kp ESC    &kp A  &hml LEFT_CONTROL S  &hml LEFT_ALT D   &hml LEFT_COMMAND F  &kp G      &trans  &trans  &kp H          &hmr LEFT_COMMAND J  &hmr RIGHT_ALT K  &hmr RCTRL L  &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z  &kp X                &kp C             &kp V                &kp B                      &kp N          &kp M                &kp COMMA         &kp DOT       &kp FSLH  &kp RIGHT_SHIFT
+                                       &kp LEFT_COMMAND  &hold_layer 1 SPACE  &kp LCTRL                  &kp BACKSPACE  &hold_layer 2 ENTER  &mo 3
             >;
         };
 
