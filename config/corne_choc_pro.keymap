@@ -56,10 +56,10 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <175>;
+            tapping-term-ms = <140>;
             hold-trigger-key-positions = <0 1 2 3 4 5 6 14 15 16 17 18 19 20 28 29 30 31 32 33 40 41 42 8>;
             flavor = "balanced";
-            quick-tap-ms = <150>;
+            quick-tap-ms = <140>;
         };
     };
 
@@ -78,8 +78,8 @@
             bindings = <
 &kp TAB    &kp Q  &kp W                &kp E             &kp R                &kp T      &trans  &trans  &kp Y                     &kp U                &kp I             &kp O         &kp P     &kp BACKSLASH
 &kp ESC    &kp A  &hml LEFT_CONTROL S  &hml LEFT_ALT D   &hml LEFT_COMMAND F  &kp G      &trans  &trans  &kp H                     &hmr LEFT_COMMAND J  &hmr RIGHT_ALT K  &hmr RCTRL L  &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X                &kp C             &kp V                &kp B                      &kp N                     &kp M                &kp COMMA         &kp DOT       &kp FSLH  &mo 3
-                                       &kp LEFT_COMMAND  &hold_layer 1 SPACE  &kp LCTRL                  &bksp LEFT_ALT BACKSPACE  &hold_layer 2 ENTER  &kp RIGHT_ALT
+&kp LSHFT  &kp Z  &kp X                &kp C             &kp V                &kp B                      &kp N                     &kp M                &kp COMMA         &kp DOT       &kp FSLH  &kp RIGHT_SHIFT
+                                       &kp LEFT_COMMAND  &hold_layer 1 SPACE  &kp LCTRL                  &bksp LEFT_ALT BACKSPACE  &hold_layer 2 ENTER  &mo 3
             >;
         };
 
@@ -103,10 +103,10 @@
         number {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &trans  &trans  &kp N6    &kp N7    &kp N8  &kp N9     &kp N0  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans    &trans    &trans  &trans     &trans  &trans
-                        &trans  &trans  &trans                  &trans    &trans    &trans
+&trans  &trans  &kp N1  &kp N2  &kp N3  &trans  &trans  &trans  &trans    &trans    &trans  &trans     &trans  &trans
+&trans  &trans  &kp N4  &kp N5  &kp N6  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+&trans  &trans  &kp N7  &kp N8  &kp N9  &trans                  &trans    &trans    &trans  &trans     &trans  &trans
+                        &kp N0  &trans  &trans                  &trans    &trans    &trans
             >;
         };
 
