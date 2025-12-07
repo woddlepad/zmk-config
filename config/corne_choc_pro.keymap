@@ -140,20 +140,20 @@
         gamer {
             display-name = "GAMER";
             bindings = <
-&trans  &kp Q  &kp W  &kp E  &kp R            &kp T      &trans  &trans  &kp Y   &kp U                &kp I            &kp O                &kp P   &trans
-&trans  &kp A  &kp S  &kp D  &kp F            &kp G      &trans  &trans  &kp H   &hmr J LEFT_COMMAND  &hmr K LEFT_ALT  &hmr L LEFT_CONTROL  &trans  &trans
-&trans  &kp Z  &kp X  &kp C  &hml LEFT_ALT V  &kp B                      &kp N   &kp M                &trans           &trans               &trans  &trans
-                      &mo 6  &kp SPACE        &kp LCTRL                  &trans  &trans               &trans
+&kp TAB       &kp Q  &kp W  &kp E  &kp R            &kp T      &trans  &trans  &kp Y   &kp U                &kp I            &kp O                &kp P     &kp BSLH
+&kp CAPSLOCK  &kp A  &kp S  &kp D  &kp F            &kp G      &trans  &trans  &kp H   &hmr LEFT_COMMAND J  &hmr LEFT_ALT K  &hmr LEFT_CONTROL L  &kp SEMI  &kp SQT
+&kp LSHFT     &kp Z  &kp X  &kp C  &hml LEFT_ALT V  &kp B                      &kp N   &kp M                &kp COMMA        &kp DOT              &kp FSLH  &trans
+                            &mo 6  &kp SPACE        &kp LCTRL                  &trans  &trans               &trans
             >;
         };
 
         game_numpad {
             display-name = "NUMBER";
             bindings = <
-&trans  &trans  &kp N7        &kp N8        &kp N9        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp N4        &kp N5        &kp N6        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-                              &trans        &trans        &trans                  &trans  &trans  &trans
+&trans      &trans  &kp N7        &kp N8        &kp N9        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE  &trans  &kp N4        &kp N5        &kp N6        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+                                  &trans        &trans        &trans                  &trans  &trans  &trans
             >;
         };
     };
