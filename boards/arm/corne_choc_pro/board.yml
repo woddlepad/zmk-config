@@ -1,0 +1,9 @@
+board:
+  name: corne_choc_pro
+  full_name: Corne Choc Pro
+  vendor: beekeeb
+  socs:
+    - name: nrf52840
+  variants:
+    - name: left
+    - name: right
